@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item android:id="@+id/left_nav_call"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="反馈"
+            />
+        <item android:id="@+id/left_nav_mail"
+            android:icon="@drawable/ic_append_black_24dp"
+            android:title="邮件"
+            />
+        <item android:id="@+id/left_nav_login_out"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="退出登录"
+            />
+        <item android:id="@+id/left_nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="设置"
+            />
+    </group>
+
+</menu>

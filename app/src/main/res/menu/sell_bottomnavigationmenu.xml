@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:id="@+id/first"
+        android:title="首页"
+        android:icon="@drawable/ic_store_black_24dp">
+
+    </item>
+    <item
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:id="@+id/second"
+        android:title="销售"
+        android:icon="@drawable/ic_sell_2_24dp">
+
+    </item>
+
+    <item
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:id="@+id/third"
+        android:title="我的"
+        android:icon="@drawable/ic_mine_24dp">
+
+    </item>
+
+</menu>

@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#25C72C</item>
+        <item name="colorPrimaryDark">#25C72C</item>
+        <item name="colorAccent">#25C72C</item>
+    </style>
+
+    <style name="InputBoxStyle">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@drawable/border_input_box</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>
